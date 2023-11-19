@@ -1,14 +1,15 @@
 public class recursion {
-    public static void main(String[] args) {
-        int result = sum(5, 10);
-        System.out.println(result);
+    static int count = 0;
+
+    static void p() {
+        count++;
+        if (count <= 5) {
+            System.out.println("hello " + count);
+            p();
+        }
     }
 
-    public static int sum(int start, int end) {
-        if (end > start) {
-            return end + sum(start, end - 1);
-        } else {
-            return end;
-        }
+    public static void main(String[] args) {
+        p();
     }
 }
