@@ -1,8 +1,8 @@
-package firstprgm;
+package hello;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class iterator {
+public class iterator{
   public static void main(String[] args) {
 
     // Make a collection
