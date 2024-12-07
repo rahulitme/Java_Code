@@ -12,3 +12,37 @@ public class Reverse {
 
     }
 }
+
+
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+1>-kumar  solo
+public class Main {
+    public static void main(String[] args) {
+        String s1 = "solo kumar";
+        
+        // Split the string into words
+        String[] words = s1.split(" "); 
+        
+        // Loop through the words array in reverse order
+        for (int i = words.length - 1; i >= 0; i--) {
+            System.out.print(words[i] + " ");
+        }
+    }
+}
+
+1>-reverse
+    
+ class Main {
+    public static void main(String[] args) {
+        String s1 = "aoslo kumar ";
+        char [] ch = s1.toCharArray();
+        
+            for(int i = ch.length-1;i>=0;i--)
+            {
+                System.out.println(ch[i]);
+            }
+        }
+    }
+
+
