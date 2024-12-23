@@ -45,4 +45,22 @@ public class Main {
         }
     }
 
+class Main {
+    public static void main(String[] args) {
+        String s1  = "this is my best friend school";///this is my best loohools friend best
+        char p[] = s1.toCharArray();
+        
+        for(int i=0;i<=p.length-12;i++)
+        
+        {
+            System.out.println(p[i]);
+        }
+            for(int j = p.length-1;j>=12;j--)
+
+      System.out.println(p[j]);
+    }
+      char s [] = ch[p]+ ch[i];
+      System.out.println(s);
+}
+}
 
