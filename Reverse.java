@@ -64,3 +64,27 @@ class Main {
 }
 }
 
+
+
+split the string
+    
+class Main {
+    public static void main(String[] args) {
+        String s1 = "solo the trip";
+        String[] s2 = s1.split(" ");
+        
+        for(String a:s2)
+        {
+        
+        System.out.println(a);
+        }
+         String s3 = s1.substring(0,12)+ "solo"+ 13;//in bitween
+        System.out.println(s3);
+    }
+}
+
+output//
+solo
+the
+trip
+solo the trisolo13
