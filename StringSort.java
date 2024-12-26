@@ -12,3 +12,21 @@ public class StringSort {
         System.out.println(charArray);
     }
 }
+
+
+import java.util.Arrays;
+
+class Main {
+    public static void main(String[] args) {
+        String s1 = "junar";
+        char[] ch = s1.toCharArray();
+        
+        
+        Arrays.sort(ch);
+        
+        for(char c:ch)
+        {
+            System.out.println(c);
+        }
+    }
+}
