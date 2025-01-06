@@ -23,3 +23,28 @@ public class TwoByTwoMatrix {
 }
     }
 }
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        String s = "rahulKuMaR"; // Input string
+        int uppercase = 0;       // Counter for uppercase letters
+        int lowercase = 0;       // Counter for lowercase letters
+        
+        // Loop through the string
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i); // Get the character at the current index
+            
+            if (Character.isUpperCase(ch)) {   // Check if the character is uppercase
+                uppercase++;
+            } else if (Character.isLowerCase(ch)) { // Check if the character is lowercase
+                lowercase++;
+            }
+        }
+        
+        // Print the counts after the loop
+        System.out.println("Uppercase Count: " + uppercase);
+        System.out.println("Lowercase Count: " + lowercase);
+    }
+}
