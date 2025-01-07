@@ -48,3 +48,21 @@ class Main {
         System.out.println("Lowercase Count: " + lowercase);
     }
 }
+//print only the Uppercase character
+class Main {
+    public static void main(String[] args) {
+        String s = "skYBlue";
+        String upppercase = "";
+        
+        for(int i = 0;i<s.length();i++)
+        {
+            char c = s.charAt(i);
+            if(Character.isUpperCase(c))
+            {
+                upppercase = upppercase+c;
+            }
+        }
+        
+        System.out.println(upppercase);
+    }
+}
