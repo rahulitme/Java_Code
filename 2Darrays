@@ -66,3 +66,18 @@ class Main {
         System.out.println(upppercase);
     }
 }
+
+class Main {
+    public static void main(String[] args) {
+        String s = "skYBlue";
+        String uppercase = ""; // Fixed spelling of "uppercase"
+        
+        for (int i = s.length() - 1; i >= 0; i--) { // Corrected "length" to "s.length()"
+            char c = s.charAt(i);
+            if (Character.isUpperCase(c)) {
+                uppercase = uppercase + c; // Appending uppercase letters
+            }
+        }
+        System.out.println(uppercase); // Output the collected uppercase letters
+    }
+}
