@@ -106,3 +106,22 @@ h
 m
 u
 k output
+
+
+
+class Main {
+    public static void main(String[] args) {
+        String s1 = "kumar";
+        String result = "";
+
+        // Rearrange the characters to form "marku"
+        result += s1.charAt(3); // 'm'
+        result += s1.charAt(0); // 'a'
+        result += s1.charAt(4); // 'r'
+        result += s1.charAt(2); // 'k'
+        result += s1.charAt(1); // 'u'
+
+        System.out.println(result);
+    }
+}
+akrmu
