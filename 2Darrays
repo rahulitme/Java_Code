@@ -81,6 +81,7 @@ class Main {
         System.out.println(uppercase); // Output the collected uppercase letters
     }
 }
+//output BY
 
 
 
@@ -125,3 +126,37 @@ class Main {
     }
 }
 akrmu
+
+
+public class Main {
+    public static void main(String[] args) {
+        String s1 = "Acharya institute OF teCHNOLOGY";
+        char[] p1 = s1.toCharArray(); // Convert string to character array
+        
+        int upperCount = 0; // To count uppercase characters
+        int lowerCount = 0; // To count lowercase characters
+        
+        for (int i = 0; i < p1.length; i++) {
+            if (Character.isUpperCase(p1[i])) {
+                // Convert uppercase to lowercase
+                p1[i] = Character.toLowerCase(p1[i]);
+                upperCount++;
+            } else if (Character.isLowerCase(p1[i])) {
+                // Convert lowercase to uppercase
+                p1[i] = Character.toUpperCase(p1[i]);
+                lowerCount++;
+            }
+        }
+
+        // Print the results
+        System.out.println("Original String: " + s1);
+        System.out.println("Converted String: " + new String(p1));
+        System.out.println("Uppercase Count: " + upperCount);
+        System.out.println("Lowercase Count: " + lowerCount);
+    }
+}
+Original String: Acharya institute OF teCHNOLOGY
+Converted String: aCHARYA INSTITUTE of TEchnology
+Uppercase Count: 11
+Lowercase Count: 17
+
