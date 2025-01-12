@@ -160,3 +160,12 @@ Converted String: aCHARYA INSTITUTE of TEchnology
 Uppercase Count: 11
 Lowercase Count: 17
 
+class Main {
+    public static void main(String[] args) {
+        char input = 'A '; // Input character
+        char output = (char)(input+2); // Shift by 2 positions
+        System.out.println("Output: " + output);
+    }
+}
+//C
+
