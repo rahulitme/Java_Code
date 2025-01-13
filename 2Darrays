@@ -169,3 +169,17 @@ class Main {
 }
 //C
 
+
+class Main {
+    public static void main(String[] args) {
+        int arr[] = {1, 2, 3, 4, 3};
+        int sum = 0;
+
+        for (int value : arr) {
+            sum += value;
+            int p = sum % 5;
+            System.out.println(p);
+        }
+    }
+}
+avg=3
