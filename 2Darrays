@@ -204,3 +204,14 @@ class Main {
         }
     }
 } //1,2,3,4,3,5,4 solo
+
+
+class Main {
+    public static void main(String[] args) {
+        String s1 = "anup kumar of this";
+        String words[] = s1.split(" ");
+        System.out.println(words[0]);
+         System.out.println(words[2]);
+    }
+}
+output//anup of
