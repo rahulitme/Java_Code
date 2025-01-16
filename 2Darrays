@@ -215,3 +215,23 @@ class Main {
     }
 }
 output//anup of
+
+
+import java.util.Arrays;
+
+class Main {
+    public static void main(String[] args) {
+        int a[] = {1, 2, 3, 4, 5};
+        int b[] = {1, 2, 3, 4, 5};
+        if(Arrays.equals(a, b))
+        {
+            System.out.println("arraya are equals");
+        }
+        else{
+             System.out.println("arraya are  not equals");
+        }
+    }
+}
+
+
+
