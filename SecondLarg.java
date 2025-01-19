@@ -20,3 +20,4 @@ public class SecondLarg {
         System.out.println("Second Largest: " + getSecondLargest(b, 7));
     }
 }
+
