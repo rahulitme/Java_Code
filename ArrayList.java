@@ -25,3 +25,19 @@ class Main {
         System.out.println(hs);
     }
 }
+
+
+//if statement + for
+import java.util.ArrayList;
+import java.util.List;
+class Main {
+    public static void main(String[] args) {
+        List<String>li = new ArrayList<>();
+        li.add("3");
+        li.add("5");
+        li.add("2");
+   if (li.size() >= 2) {
+    for (String p : li) {
+        System.out.println(p);
+    }
+}
