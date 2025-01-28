@@ -275,5 +275,22 @@ class Main {
     }
 }
 
+class Main {
+    public static void main(String[] args) {
+        int p = 0;
+        if(p > 0) {
+            System.out.println("grater");
+        }
+        else if(p < 0)
+        {
+            System.out.println("less then");
+        }
+       else
+       {
+            System.out.println("equals");
+        }
+    }
+}
+
 
 
