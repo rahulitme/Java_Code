@@ -292,5 +292,15 @@ class Main {
     }
 }
 
+class Main {
+    public static void main(String[] args) {
+        String s1 = "solo";
+        char ch = 'a';
+         String p1 = ch + s1;
+        
+        System.out.println(p1);
+    }
+}
+
 
 
