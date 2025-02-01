@@ -317,4 +317,20 @@ class Main {
 }
 
 
+class Main {
+    public static void main(String[] args) {
+        int arr[] = {1, 2, 3, 2, 3, 2, 36};
+        int n = arr.length; // Total number of elements
+        int sum = 0;
+
+        // Calculate the sum of all elements
+        for (int i = 0; i < n; i++) {
+            sum += arr[i];
+        }
+
+        // Calculate mean (convert to double to get accurate result)
+        double mean = (double) sum / n;
+        System.out.println("Mean: " + mean);
+    }
+}
 
