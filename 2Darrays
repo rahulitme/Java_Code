@@ -333,4 +333,42 @@ class Main {
         System.out.println("Mean: " + mean);
     }
 }
+//secong largst number uisng array list
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+class Main {
+    public static void main(String[] args) {
+        // Creating an ArrayList
+        ArrayList<Integer> a = new ArrayList<>();
+        
+        // Adding Elements in ArrayList
+        a.add(1);
+        a.add(2);
+        a.add(3);
+        a.add(5);
+        a.add(4);
+
+        // Finding the second largest number
+        if (a.size() < 2) {
+            System.out.println("ArrayList must contain at least two elements.");
+            return;
+        }
+
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
+
+        for (int num : a) {
+            if (num > largest) {
+                secondLargest = largest;
+                largest = num;
+            } else if (num > secondLargest && num != largest) {
+                secondLargest = num;
+            }
+        }
+
+        System.out.println("Second largest number: " + secondLargest);
+    }
+}
 
