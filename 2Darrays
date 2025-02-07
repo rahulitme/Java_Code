@@ -426,4 +426,15 @@ class Main {
 }
 output -3
 
+class Main {
+    public static void main(String[] args) {
+        String s1 = "this is my opinion";
+        for(int i =11;i< s1.length();i++)
+         System.out.print(s1.charAt(i));
+         System.out.println(" ");
+         for(int i=0;i<10;i++)
+        System.out.print(s1.charAt(i));
+    }
+}
+
 
