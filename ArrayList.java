@@ -41,3 +41,30 @@ class Main {
         System.out.println(p);
     }
 }
+
+
+        // Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+import java.util.*;
+class Main
+{
+    public static void main(String args[])
+    {
+        int arr[] = {1,2,3,4,5,6};
+        int arr1[] = {4,5,6,7,8};
+        List<Integer> li = new ArrayList<>();
+    for(int num : arr)
+        {
+            li.add(num);
+        }
+    for(int num :arr1)
+        {
+            li.add(num);
+        }
+        
+    System.out.println("this sum of union" + li);
+        
+    }
+}
+[1, 2, 3, 4, 5, 6, 4, 5, 6, 7, 8] //union
