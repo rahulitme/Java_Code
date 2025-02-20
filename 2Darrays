@@ -436,5 +436,27 @@ class Main {
         System.out.print(s1.charAt(i)));
     }
 }
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5};
+        int n = 2; // Number of rotations
+
+        // Simple right rotation using your approach
+        for (int i = 0; i < n; i++) {
+            int first = arr[0]; // Store first element
+            
+            for (int j = 0; j < arr.length - 1; j++) { // Shift elements left
+                arr[j] = arr[j + 1];
+            }
+            
+            arr[arr.length - 1] = first; // Move first element to the end
+        }
+
+        // Print the rotated array
+        System.out.println("Left Rotated Array: " + Arrays.toString(arr));
+    }
+}
 
 
