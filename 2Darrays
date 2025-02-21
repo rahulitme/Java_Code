@@ -458,5 +458,21 @@ public class Main {
         System.out.println("Left Rotated Array: " + Arrays.toString(arr));
     }
 }
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {10, 20, 5, 8, 30, 25};
+
+        // Sorting the array
+        Arrays.sort(arr);
+        
+        // Printing the sorted array
+        System.out.println("Sorted array: " + Arrays.toString(arr));
+
+        // Printing the second largest element
+        System.out.println("Second largest number: " + arr[arr.length - 3]);
+    }
+}
 
 
