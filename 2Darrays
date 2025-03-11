@@ -543,3 +543,34 @@ class Main {
     }
 }
 
+
+import java.util.Arrays;
+
+class Main {
+    public static void main(String[] args) {
+        String s1 = "anu";
+        String s2 = "nua";
+        
+        // Check if lengths are different
+        if (s1.length() != s2.length()) {
+            System.out.println("This is not an anagram");
+            return;
+        }
+        
+        // Convert strings to character arrays
+        char[] arr1 = s1.toCharArray();
+        char[] arr2 = s2.toCharArray();
+        
+        // Sort both arrays
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+        
+        // Compare sorted arrays
+        if (Arrays.equals(arr1, arr2)) {
+            System.out.println("This is an anagram");
+        } else {
+            System.out.println("This is not an anagram");
+        }
+    }
+}
+
