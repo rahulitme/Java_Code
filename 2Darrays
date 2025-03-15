@@ -573,4 +573,13 @@ class Main {
         }
     }
 }
+class Main {
+    public static void main(String[] args) {
+        String s1 = " this is the best way";
+        
+        int p1 = s1.indexOf("way");
+        String p = s1.replace("way", "solo");
+        System.out.println(p + p1);
+    }
+}
 
