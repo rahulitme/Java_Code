@@ -582,4 +582,22 @@ class Main {
         System.out.println(p + p1);
     }
 }
+class Janwar {
+    void a1() {
+        System.out.println("This is my home");
+    }
+}
 
+class Animals extends Janwar {
+    void a2() {
+        System.out.println("Solo");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Animals a3 = new Animals(); // Creating an object of the child class
+        a3.a1(); // Calling parent class method
+        a3.a2(); // Calling child class method
+    }
+}
