@@ -601,3 +601,14 @@ class Main {
         a3.a2(); // Calling child class method
     }
 }
+class Main {
+    public static void main(String[] args) {
+     float a = 3/5f;
+     float b = 4/12f;
+     
+     float c = (4 * 5f) / (12 * 5) + (3 * 12f)/(5 * 12f);
+              
+  
+    System.out.println(c);
+    }
+} lcm= 0.9333334
