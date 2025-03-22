@@ -612,3 +612,22 @@ class Main {
     System.out.println(c);
     }
 } lcm= 0.9333334
+
+
+class Main {
+    public static void main(String[] args) {
+         int k = 2;
+        int arr[] = {1,2,3,4,56};
+        int n = arr.length;
+          k = k % n;
+        for(int i = n-k;i<n;i++)
+        {
+             System.out.println(arr[i]);
+        }
+            for(int j =0;j<= n-k;j++)
+            {
+                System.out.println(arr[j]);
+            }
+                
+        }
+    }
