@@ -740,4 +740,14 @@ public class SumOfDigits {
     }
 }
 
-
+class Main {
+    public static void main(String[] args) {
+        int a=9,b= 43;
+      a = a + b;
+      b = a - b;
+      a = a - b;
+        
+        
+        System.out.println("before swap"+"a value is" + a +"b" + b);
+    }
+}
