@@ -760,3 +760,27 @@ class Main {
     }
 }
 
+class Main {
+    public static void main(String[] args) {
+        int target = 15;
+        int[] arr = {1, 2, 3, 5, 7, 10, 11, 15}; // Use [] instead of {}
+
+        int l = 0;
+        int r = arr.length - 1;
+
+        while (l < r) { // Use <, not >
+            int sum = arr[l] + arr[r];
+
+            if (sum == target) {
+                System.out.println("Found: " + arr[l] + " + " + arr[r] + " = " + target);
+                return; // Exit once found
+            } else if (sum < target) {
+                l++; // Need bigger sum
+            } else {
+                r--; // Need smaller sum
+            }
+        }
+
+        System.out.println("No pair found.");
+    }
+}
