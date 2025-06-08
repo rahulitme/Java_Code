@@ -812,3 +812,17 @@ public class Main {
     }
 }
  revers using  two pointer
+
+import java.util.Arrays;
+class Main {
+    public static void main(String[] args) {
+        int arr[] = {12,3,2,4,2,32,2};
+        Arrays.sort(arr);
+        // for(int i=0;i<arr.length;i++)
+        for(int n: arr)
+        {
+        // System.out.print(arr[i] + " ");
+         System.out.println(n);
+        }
+    }
+}
